@@ -3,5 +3,5 @@ ENV PYTHONUNBUFFERED 1
 RUN mkdir /src
 WORKDIR /src
 ADD requirements.txt /src/
-RUN pip install -r requirements.txt
+RUN pip install -r /src/requirements.txt
 ADD . /src/
