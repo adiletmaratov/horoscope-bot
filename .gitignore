@@ -1,2 +1,3 @@
 .idea/
 src/horoscope.sqlite3
+src/logs/
