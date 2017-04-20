@@ -18,5 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^', include('horoscope_parser.urls', namespace='horoscopes')),
+    url(r'^', include('bot.urls', namespace='bot')),
     url(r'^admin/', admin.site.urls),
 ]
