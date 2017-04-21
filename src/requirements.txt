@@ -1,4 +1,4 @@
 Django==1.11
-psycopg2
+#psycopg2
 requests
 beautifulsoup4
